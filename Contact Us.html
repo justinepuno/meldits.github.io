@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meldita's - Contact</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+    /* HEADER */
+        header {
+            background-color: #f4b165;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    
+        .logo {
+            font-family: 'Brush Script MT', 'cursive';
+            font-size: 28px;
+            font-weight: normal;
+            color: #333;
+        }
+    
+        nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    
+        nav a {
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    
+        .icons {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            font-size: 14px;
+        }
+    
+        .icon-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #000;
+        }
+    
+        .icon-group i {
+            font-size: 18px;
+            margin-bottom: 2px;
+        }
+    
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin: 30px 0;
+        }
+        
+        nav a:hover {
+            color: #914F1E;
+            text-decoration: underline;
+        }
+    /* END HEADER */
+
+    /* LOCATION SECTION */
+    .section-title {
+        background-color: #ffbfd5; 
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        padding: 20px 0;
+        margin: 0;
+        color: #000;
+        letter-spacing: 2px; 
+        text-transform: uppercase; 
+    }
+
+        .location-image {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+    /* END LOCATION SECTION */
+
+
+    /* Footer Styles */
+        footer {
+            background-color: #f4b165; 
+            color: #000;
+            padding: 10px 10px;
+            font-family: Arial, sans-serif;
+            text-align: center; 
+        }
+        
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin: 0 auto;
+            align-items: center; 
+            justify-content: center; 
+            text-align: center; 
+        }
+        
+        .f-logo {
+            font-family: 'Brush Script MT', 'cursive';
+            text-align: center; 
+            margin-top: 50px;
+        }
+        .f-logo h3 {
+            font-size: 1.8rem;
+            font-weight: normal;
+            margin: 0;
+        }
+        
+        .f-logo p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin-top: 5px;
+        }
+        
+        .footer-section h3 {
+            color: black; 
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .footer-section ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        
+        .footer-section a {
+            color: #000;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            margin-bottom: 10px;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-section a:hover {
+            color: #4E1F00;
+        }
+        
+        .footer-section a i {
+            margin-right: 10px;
+        }
+        
+    /* Phone number & map link */
+        .footer-section p,
+        .footer-section a {
+            font-size: 1rem;
+            margin: 0;
+        }
+        
+    /* Footer Bottom */
+        .footer-bottom {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    /* END Footer Styles */
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+        <header>
+            <div class="logo">Meldita's Snacks</div>
+ <nav>
+            <a href="./">Home</a>
+            <a href="./Product">Products</a>
+            <a href="./Gallery">Gallery</a>
+            <a href="./About">About</a>
+            <a href="./Contuct Us">Contact Us</a>
+           
+        </nav>
+        
+            <div class="icons">
+            <div class="icon-group">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Track Order</span>
+            </div>
+            <div class="icon-group">
+                <i class="fas fa-shopping-cart"></i>
+                <span>Cart</span>
+            </div>
+            </div>
+        </header>
+    <!-- END HEADER -->
+
+    <!-- LOCATION SECTION -->
+        <h2 class="section-title">LOCATION</h2>
+        <iframe 
+            class="location-image"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.6951082115733!2d120.6596994!3d15.1771461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396ef3fe37f9257%3A0x3f87725984b09654!2sMELDITA'S%20SNACKS!5e0!3m2!1sen!2sph!4v1683100000000!5m2!1sen!2sph" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    <!-- END LOCATION SECTION -->
+
+
+    <!--FOOTER-->
+        <footer>
+            <div class="footer-container">
+                <div class="f-logo">
+                    <h3>Meldita's Snack</h3>
+                    <p>Food and Beverages</p>
+                </div>
+                
+
+                <div class="footer-section">
+                    <h3>MESSAGE US</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/melditas.snacks" target="_blank">
+                                <i class="fab fa-facebook"></i> Meldita's Snacks Food and Beverages
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>VISIT US</h3>
+                    <p>
+                        <a href="https://www.google.com/maps/place/MELDITA'S+SNACKS/@15.1771461,120.6596994,17z/data=!3m1!4b1!4m6!3m5!1s0x3396ef3fe37f9257:0x3f87725984b09654!8m2!3d15.1771461!4d120.6596994!16s%2Fg%2F11sb4rbjrb?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+                            <i class="fas fa-map-marker-alt"></i> B76 L15 NHA, Mexico, Pampanga
+                        </a>
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>CALL US</h3>
+                    <p>
+                        <a href="tel:09973218577">0997-321-8577</a>  
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>PAYMENT METHOD</h3>
+                <p>Cash or Gcash</p>
+            </div>
+            
+            <hr>
+            <p style="font-weight: bold;">Free delivery around Pandacaqui from 6pm to 2am!</p>
+
+            <div class="footer-bottom">
+                <p>© 2020 Melditas Snacks Food and Beverages. All Rights Reserved</p>
+            </div>
+        </footer>
+    <!-- END FOOTER-->
+</body>
+</html>
+cdnjs.cloudflare.com
